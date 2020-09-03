@@ -1,0 +1,33 @@
+{
+  "name": "@alexbainter/indexed-db",
+  "version": "0.0.0",
+  "description": "IndexedDB utilities",
+  "main": "dist/indexed-db.umd.js",
+  "module": "dist/indexed-db.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "lint": "eslint src",
+    "preversion": "npm run lint && npm run build",
+    "postverison": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalex9/indexed-db.git"
+  },
+  "author": "Alex Bainter <alex@alexbainter.com> (https://alexbainter.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metalex9/indexed-db/issues"
+  },
+  "homepage": "https://github.com/metalex9/indexed-db#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-metalex9": "^0.4.0",
+    "prettier": "^2.1.1",
+    "rollup": "^2.26.9"
+  }
+}

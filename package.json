@@ -1,6 +1,6 @@
 {
   "name": "@alexbainter/indexed-db",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "IndexedDB utilities",
   "main": "dist/indexed-db.umd.js",
   "module": "dist/indexed-db.es.js",

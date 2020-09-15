@@ -9,17 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - None
 
-## [1.0.1] - 2020-09-14
+## [0.1.1] - 2020-09-14
 
 ### Fixed
 
 - Reference `self` instead of `window` to support use in web workers.
-
-## [1.0.0] - 2020-09-03
-
-### Changed
-
-- `pkg.main` references a new CommonJS module.
 
 ## [0.1.0] - 2020-09-02
 
@@ -27,7 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release.
 
-[unreleased]: http://github.com/metalex9/indexed-db/compare/v1.0.1...HEAD
-[1.0.1]: http://github.com/metalex9/indexed-db/compare/v1.0.0...v1.0.1
-[1.0.0]: http://github.com/metalex9/indexed-db/compare/v0.1.0...v1.0.0
+[unreleased]: http://github.com/metalex9/indexed-db/compare/v0.1.1...HEAD
+[0.1.1]: http://github.com/metalex9/indexed-db/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/metalex9/web-provider/releases/tag/v0.1.0
